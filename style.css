@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+video{
+
+    min-width: 100%;
+    min-height: 100vh;
+    object-fit:cover;
+
+}
+
+.notes{
+position: absolute;
+bottom: 0px;
+left: 0px;
+width:90%;
+height:10vh;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 40px;
+background: rgba(0,0,0,0.4);
+color: white;
+ font-family: 'Century Gothic',sans-serif;
+ margin-left: 5%;
+ margin-bottom: 4%;
+}
+
+.notes h1{
+
+    font-size: 40px;
+}
